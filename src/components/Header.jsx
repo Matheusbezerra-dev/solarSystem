@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
+import logo from '../images/logo-sistema-solar.png';
+import { HeaderContainer } from '../styles/styles';
 
-class Header extends React.Component {
+export default class Header extends Component {
   render() {
     return (
-      <header>
-        <h1>Sistema Solar</h1>
-      </header>
+      <HeaderContainer>
+        <img src={ logo } alt="Logo Star Wars" />
+      </HeaderContainer>
     );
   }
 }
-
-export default Header;
