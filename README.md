@@ -45,4 +45,4 @@ Abra o terminal onde clonou o projeto:
 
  
 
- [Link do Deploy](solar-system-iota.vercel.app)
+ [Link do Deploy](https://solar-system-iota.vercel.app/)
