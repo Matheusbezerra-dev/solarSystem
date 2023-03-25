@@ -37,3 +37,12 @@ Abra o terminal onde clonou o projeto:
 **Front-end:** React, Javascript, Props, Styled-components
 
 
+
+
+
+
+## Deploy
+
+ 
+
+ [Link do Deploy](solar-system-iota.vercel.app)
