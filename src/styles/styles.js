@@ -39,13 +39,17 @@ export const ContainerMissions = styled.div`
   justify-content: center;
   /* align-items: center;  */
   flex-wrap: wrap;
-  width: 1100px;
+  max-width: 1100px;
+  width: 100%;
   background-color: rgba(255, 255, 255, 10%);
   box-shadow: 0px 4px 14px 0px rgba(0 0 0 90%);
   font-family: Epilogue;
   font-weight: 300;
   border-radius: 30px;
   margin-bottom: 80px;
+  @media (max-width: 1100px) {
+    padding: 2rem;
+  }
 `;
 
 export const DivMission = styled.section`
