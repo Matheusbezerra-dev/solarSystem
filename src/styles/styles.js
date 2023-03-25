@@ -1,17 +1,19 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const DivApp = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
+  @media (max-width: 1120px) {
+    padding: 2rem;
+  }
 `;
 
 export const HeaderContainer = styled.header`
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   @media (max-width: 580px) {
-    img{
+    img {
       width: 280px;
     }
   }
@@ -21,7 +23,7 @@ export const ContainerPlanets = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row; 
+  flex-direction: row;
   flex-wrap: wrap;
   color: white;
   div {
@@ -33,14 +35,14 @@ export const ContainerPlanets = styled.div`
   }
   @media (max-width: 480px) {
     flex-direction: column;
-    div{
+    div {
       margin-left: 0;
     }
   }
 `;
 
 export const ContainerMissions = styled.div`
-  display: flex; 
+  display: flex;
   justify-content: center;
   /* align-items: center;  */
   flex-wrap: wrap;
@@ -58,7 +60,11 @@ export const ContainerMissions = styled.div`
 `;
 
 export const DivMission = styled.section`
-  background: linear-gradient(0deg, rgba(24, 26, 37, 0.5), rgba(24, 26, 37, 0.5));
+  background: linear-gradient(
+    0deg,
+    rgba(24, 26, 37, 0.5),
+    rgba(24, 26, 37, 0.5)
+  );
   border: 1px solid rgba(255, 255, 255, 1);
   max-width: 495px;
   width: 100%;
@@ -75,19 +81,19 @@ export const DivMission = styled.section`
     height: 100%; */
     height: 350px;
   }
- `;
+`;
 
 export const H2Title = styled.h2`
-    color: white;
-    font-family: Epilogue;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 60px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin-top: 70px;
-    align-items: center;
-    margin-bottom: 40px;
+  color: white;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 70px;
+  align-items: center;
+  margin-bottom: 40px;
 `;
 
 export const DivMissionAside1 = styled.div`
@@ -95,7 +101,7 @@ export const DivMissionAside1 = styled.div`
   justify-content: center;
   align-items: center;
   color: rgb(255 255 255);
-  div{
+  div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +124,7 @@ export const DivMissionAside = styled.div`
     font-family: Epilogue;
     flex-direction: column;
   }
-  
+
   div img {
     width: 15px;
     height: 18px;
